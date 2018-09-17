@@ -1,3 +1,8 @@
+# Estudo de Operações matemáticas em Python
+# Calculadora com algumas operações básicas
+# João Crispim Neto - 17 de setembto de 2018
+
+# Definição das funções básicas para os cálculos.
 def soma(nr1,nr2):
     return(nr1+nr2)
 
@@ -10,6 +15,7 @@ def sub(nr1,nr2):
 def div(nr1,nr2):
     return(nr1/nr2)
 
+# Função que gera o Menu inicial.
 def menu():
     print ('='* 44)
     print ('| 1 = SOMA' + '                  ' + '6 = NOVA OPÇÃO |')
@@ -19,11 +25,12 @@ def menu():
     print ('| 5 = RAIZ QUADRADA' + '         ' + '0 = SAIR       |')
     print ('=' * 44)
     
-
+# Inicializa o Menu
 print(menu())
 
 menu = int(input('Digite uma Opção: ZERO para Sair: '))
 
+#Entra em loop até que seja digitado ZERO para encerrar.
 while menu != 0:
     
     if menu == 1:
