@@ -1,6 +1,6 @@
 # Estudo de Operações matemáticas em Python
 # Calculadora com algumas operações básicas
-# João Crispim Neto - 17 de setembto de 2018
+# João Crispim Neto - 17 de setembro de 2018
 
 # Definição das funções básicas para os cálculos.
 def soma(nr1,nr2):
